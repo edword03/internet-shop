@@ -1,0 +1,44 @@
+.app {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.header {
+  padding: 10px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  font-size: 16px;
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav span {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.activeLink {
+  color: #3C39EC;
+  box-shadow: inset 0px -2px 0px #3c39ec;
+  padding: 10px 0;
+}
+
+.link {
+  line-height: 20px;
+  color: rgba(41, 41, 41, 0.6);
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    width: 95%;
+  }
+}

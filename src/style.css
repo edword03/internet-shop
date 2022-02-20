@@ -1,0 +1,46 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *:after, *:active, *:focus, *:hover {
+  outline: none;
+  outline-offset: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+

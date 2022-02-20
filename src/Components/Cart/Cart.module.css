@@ -1,0 +1,21 @@
+.title {
+  font-size: 25px;
+  margin: 20px 0 20px;
+  color: #333;
+}
+
+.resetButton {
+  padding: 7px 12px;
+  border: 2px solid tomato;
+  border-radius: 5px;
+  color: tomato;
+  margin-top: 30px;
+  display: block;
+}
+
+.total {
+  font-weight: 700;
+  font-size: 20px;
+  display: block;
+  margin-top: 20px;
+}
